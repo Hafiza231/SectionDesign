@@ -115,6 +115,15 @@ img{
 .card3space{
     margin-top: 110px;
 }
+.creator{
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 @media only screen and (max-width:767px){
 
@@ -178,5 +187,8 @@ img{
     }
     .main{
         margin: 30px;
+    }
+    .creator{
+        margin-bottom: 20px;
     }
 }
